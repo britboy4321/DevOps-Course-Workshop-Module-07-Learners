@@ -1,5 +1,5 @@
 # name: 'Setup .net'
-#on:
+#  on:
 #  push:
     
 #steps:
