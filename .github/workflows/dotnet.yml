@@ -10,17 +10,17 @@
 # - run: dotnet build <my project>
 #run: echo 'Hello world'
 
-#name: Continuous Integration
-#on:
-#  push:
-#jobs:
-#  build:
-#    name: Build and test
-#    runs-on: ubuntu-latest#
-#
-#    steps:
-#    - uses: actions/checkout@v2
-#   
+name: Continuous Integration
+on:
+  push:
+jobs:
+  build:
+    name: Build and test
+    runs-on: ubuntu-latest#
 
-#    - name: Hello world      # Name of step
-#    run: echo 'Hello world'  # Command to run
+    steps:
+    - uses: actions/checkout@v2
+   
+
+    - name: Hello world      # Name of step
+    run: echo 'Hello world'  # Command to run
